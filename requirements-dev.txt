@@ -23,7 +23,10 @@ grip>=4.5.2
 
 # Packaging
 # We only need py2exe on windows.
-py2exe==0.10.1.0; sys_platform == 'win32'
+#py2exe==0.10.1.0; sys_platform == 'win32'
+#https://bintray.com/py2exe/py2exe/download_file?file_path=py2exe-0.10.2.0-cp37-none-win32.whl
+#https://dl.bintray.com/py2exe/py2exe/:py2exe-0.10.2.0-cp37-none-win32.whl
+https://miggy.org/misc/py2exe-0.10.2.0-cp38-none-win32.whl
 
 # Testing
 pytest==6.2.1
